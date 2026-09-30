@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "fitzone/wsgi.py",
+      "src": "momos/wsgi.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "fitzone/wsgi.py"
+      "dest": "momos/wsgi.py"
     }
   ]
 }
